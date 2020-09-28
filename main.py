@@ -28,7 +28,7 @@ class RichVkBotLongPoll(VkBotLongPoll):
             except Exception as e:
                 print('error', e)
 
-vk_session = vk_api.VkApi(token="dc5eeba2f760e2e677e6dd2fe15a72f961af622dd27c558b783c589aa0911d5434be5e5d92b2af1202161");
+vk_session = vk_api.VkApi(token="токен...");
 search_requests = {}
 groupid = '171098026'
 longpoll = RichVkBotLongPoll(vk_session, groupid);
